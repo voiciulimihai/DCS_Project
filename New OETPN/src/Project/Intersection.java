@@ -39,19 +39,19 @@ public class Intersection {
         p_a1.SetName("p_a1");
         pn.PlaceList.add(p_a1);
 
-        DataCarQueue p_x1 = new DataCarQueue();
-        p_x1.Value.Size =3;
-        p_x1.SetName("p_x1");
-        pn.PlaceList.add(p_x1);
+        DataCarQueue p_qa12 = new DataCarQueue();
+        p_qa12.Value.Size =3;
+        p_qa12.SetName("p_qa1");
+        pn.PlaceList.add(p_qa12);
 
         DataString p_tl1 = new DataString();
         p_tl1.SetName("p_tl1");
         pn.PlaceList.add(p_tl1);
 
 
-        DataCar p_b1 = new DataCar();
-        p_b1.SetName("p_b1");
-        pn.PlaceList.add(p_b1);
+        DataCar p_qa11 = new DataCar();
+        p_qa11.SetName("p_qa11");
+        pn.PlaceList.add(p_qa11);
 
         //LANE 2
 
@@ -64,18 +64,18 @@ public class Intersection {
         p_a2.SetName("p_a2");
         pn.PlaceList.add(p_a2);
 
-        DataCarQueue p_x2 = new DataCarQueue();
-        p_x2.Value.Size =3;
-        p_x2.SetName("p_x2");
-        pn.PlaceList.add(p_x2);
+        DataCarQueue p_qa22 = new DataCarQueue();
+        p_qa22.Value.Size =3;
+        p_qa22.SetName("p_qa22");
+        pn.PlaceList.add(p_qa22);
 
         DataString p_tl2 = new DataString();
         p_tl2.SetName("p_tl2");
         pn.PlaceList.add(p_tl2);
 
-        DataCar p_b2 = new DataCar();
-        p_b2.SetName("p_b2");
-        pn.PlaceList.add(p_b2);
+        DataCar p_qa21 = new DataCar();
+        p_qa21.SetName("p_qa21");
+        pn.PlaceList.add(p_qa21);
 
 
         //LANE 3
@@ -85,22 +85,22 @@ public class Intersection {
         OP3.Value = new TransferOperation("localhost","1081","in3");
         pn.PlaceList.add(OP3);
 
-        DataCar p_a3 = new DataCar();
-        p_a3.SetName("p_a3");
-        pn.PlaceList.add(p_a3);
+        DataCar p_qa3 = new DataCar();
+        p_qa3.SetName("p_qa3");
+        pn.PlaceList.add(p_qa3);
 
-        DataCarQueue p_x3 = new DataCarQueue();
-        p_x3.Value.Size =3;
-        p_x3.SetName("p_x3");
-        pn.PlaceList.add(p_x3);
+        DataCarQueue p_qa32= new DataCarQueue();
+        p_qa32.Value.Size =3;
+        p_qa32.SetName("p_qa32 ");
+        pn.PlaceList.add(p_qa32);
 
         DataString p_tl3 = new DataString();
         p_tl3.SetName("p_tl3");
         pn.PlaceList.add(p_tl3);
 
-        DataCar p_b3 = new DataCar();
-        p_b3.SetName("p_b3");
-        pn.PlaceList.add(p_b3);
+        DataCar p_qa31 = new DataCar();
+        p_qa31.SetName("p_qa31");
+        pn.PlaceList.add(p_qa31);
 
         //LANE 4
 
@@ -109,18 +109,18 @@ public class Intersection {
         OP4.Value = new TransferOperation("localhost","1081","in4");
         pn.PlaceList.add(OP4);
 
-        DataCar p_a4 = new DataCar();
-        p_a4.SetName("p_a4");
-        pn.PlaceList.add(p_a4);
+        DataCar p_qa4 = new DataCar();
+        p_qa4.SetName("p_qa4");
+        pn.PlaceList.add(p_qa4);
 
-        DataCarQueue p_x4 = new DataCarQueue();
-        p_x4.Value.Size =3;
-        p_x4.SetName("p_x4");
-        pn.PlaceList.add(p_x4);
+        DataCarQueue p_qa42 = new DataCarQueue();
+        p_qa42.Value.Size =3;
+        p_qa42.SetName("p_qa42");
+        pn.PlaceList.add(p_qa42);
 
-        DataCar p_b4 = new DataCar();
-        p_b4.SetName("p_b4");
-        pn.PlaceList.add(p_b4);
+        DataCar p_qa41 = new DataCar();
+        p_qa41.SetName("p_qa41");
+        pn.PlaceList.add(p_qa41);
 
         DataString p_tl4 = new DataString();
         p_tl4.SetName("p_tl4");
@@ -133,9 +133,9 @@ public class Intersection {
         p_01.SetName("p_01");
         pn.PlaceList.add(p_01);
 
-        DataCar p_01e = new DataCar();
-        p_01e.SetName("p_01e");
-        pn.PlaceList.add(p_01e);
+        DataCar p_qo11 = new DataCar();
+        p_qo11.SetName("p_qo11");
+        pn.PlaceList.add(p_qo11);
 
         // EXIT LANE 2
 
@@ -144,9 +144,9 @@ public class Intersection {
         p_02.SetName("p_02");
         pn.PlaceList.add(p_02);
 
-        DataCar p_02e = new DataCar();
-        p_02e.SetName("p_02e");
-        pn.PlaceList.add(p_02e);
+        DataCar p_qo21 = new DataCar();
+        p_qo21.SetName("p_qo21");
+        pn.PlaceList.add(p_qo21);
 
         // EXIT LANE 3
 
@@ -155,9 +155,9 @@ public class Intersection {
         p_03.SetName("p_03");
         pn.PlaceList.add(p_03);
 
-        DataCar p_03e = new DataCar();
-        p_03e.SetName("p_03e");
-        pn.PlaceList.add(p_03e);
+        DataCar p_qo31 = new DataCar();
+        p_qo31.SetName("p_qo31");
+        pn.PlaceList.add(p_qo31);
 
         // EXIT LANE 4
 
@@ -166,9 +166,9 @@ public class Intersection {
         p_04.SetName("p_04");
         pn.PlaceList.add(p_04);
 
-        DataCar p_04e = new DataCar();
-        p_04e.SetName("p_04e");
-        pn.PlaceList.add(p_04e);
+        DataCar p_qo41 = new DataCar();
+        p_qo41.SetName("p_qo41");
+        pn.PlaceList.add(p_qo41);
 
         DataTransfer p_04n = new DataTransfer();
         p_04n.SetName("p_04n");
@@ -183,7 +183,7 @@ public class Intersection {
         pn.PlaceList.add(p_i);
 
 
-        // T1 - TU1
+        // Ta1 - Ta13
 
         PetriTransition t_u1 = new PetriTransition(pn);
         t_u1.TransitionName = "t_u1";
